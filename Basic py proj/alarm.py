@@ -1,6 +1,6 @@
 from datetime import datetime
 from playsound import playsound
-alarm_time=input("Enter the time:HH:MM:SS\n")
+alarm_time=input("Enter the time:HH:MM:SS PM\n")
 alarm_hr=alarm_time[0:2]
 alarm_min=alarm_time[3:5]
 alarm_sec=alarm_time[6:8]
@@ -17,6 +17,6 @@ while True:
             if(alarm_min==current_min):
                 if(alarm_sec==current_sec):
                     print("Wake Up!")
-                    playsound('C:\\Users\\Bhavya Danala\\Desktop\\60 py proj\\Basic py proj\\heatwaves.mp3')
+                    playsound('heatwaves.mp3')
                     break
     
