@@ -12,5 +12,3 @@ if(BMI>0):
         print("you are overweight")
 else:
     print("enter valid details")        
-                
-        
