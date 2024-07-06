@@ -17,6 +17,6 @@ while True:
             if(alarm_min==current_min):
                 if(alarm_sec==current_sec):
                     print("Wake Up!")
-                    playsound('heatwaves.mp3')
+                    playsound('C:\Users\Bhavya Danala\Desktop\60 py proj\Basic py proj\heatwaves.mp3')
                     break
     
